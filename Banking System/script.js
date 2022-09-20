@@ -3,7 +3,7 @@ let myAccountBalance = parseInt(document.getElementById("myAccountBalance").inne
 function sendMoney() {
    var enterName = document.getElementById("enterName").value;
    var enterAmount = parseInt(document.getElementById("enterAmount").value);
-
+   console.log("Run");
    if (enterAmount > 10000) {
       alert("Insufficient Balance.")
    } else {
