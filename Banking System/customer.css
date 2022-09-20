@@ -72,3 +72,7 @@ body {
 .btn-info:hover {
     background-color: #ffffff !important;
 }
+
+.table-light{
+    background-color: #b60303;
+}
